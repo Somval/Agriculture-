@@ -1,0 +1,60 @@
+main{
+    background-color: #132d46;
+    height: 100vh;
+}
+
+.contactmain{
+    margin-top: 5%;
+    height: 500px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px white;
+    border-radius: 50px ;
+}
+.reach{
+    /* font-family: 'Poppins', sans-serif; */
+    height: 490px;
+    padding: 50px;
+    border-radius: 50px 0px 0 50px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.7;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.349), #191e29), url('../images/Untitled.png');
+}
+@media only screen and (max-width: 720px){
+    .reach, .contactform, .contactmain{
+        border-radius: 50px;
+    }
+    
+}
+.contactform{
+    background-color: #01c38d;
+    border-radius: 0px 50px 50px 0px;
+    padding: 50px;
+}
+.htext{
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+}
+
+.reach .row:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col-7{
+    background-color: #01c38d;
+    margin-bottom: 5%;
+    width: 300px;
+    /* padding: 20px; */
+    /* border-radius: 50px; */
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    line-height: 30px;
+}
+.iconn{
+    font-size: 60px;
+}

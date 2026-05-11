@@ -1,0 +1,260 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', 'Helvetica Neue';
+  background-color: #111a21;
+}
+
+
+.navv{
+gap: 46%;
+}
+.welc{
+  text-decoration: none;
+  margin-bottom: 2%;
+  font-size: 18px;
+}
+.navthree button{
+  color: whitesmoke;
+}
+.navthree button:hover{
+  background-color: transparent;
+}
+.navthree button span{
+  background-color: rgba(245, 245, 245, 0.753);
+  /* width: 2px; */
+}
+.tab {
+background-color: #191e29;
+height: 100vh;
+/* position: static;   */
+}
+.tab .btn{
+background-color: #191e29;
+color: #ccc;
+padding-right: 42%;
+padding-top: 10px;
+}
+
+.tab button {
+display: block;
+background-color: inherit;
+color: 191e29;
+padding: 22px 16px;
+width: 100%;
+border: none;
+outline: none;
+text-align: left;
+cursor: pointer;
+transition: 0.3s;
+font-size: 17px;
+}
+
+.tab button:hover {
+background-color: rgba(244, 244, 244, 0.166);
+}
+
+.tab button.active {
+border: 1px solid #ccc;
+color: #ccc;
+box-shadow: #ccc;
+}
+
+.tabcontent {
+
+padding: 0px 12px;
+background: url('/manager/images/kitchentrans.jpg');
+background-size: cover;
+background-color: #ccc;
+background-blend-mode: darken;
+/* width: 80%; */
+
+}
+.tab button{
+  color: #ccc;
+}
+
+
+/* DASHBOARD TABLE */
+.table {
+  background-color: #333;
+}
+
+.table th {
+  color: #fff;
+}
+
+.table th i {
+  margin-right: 5px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #444;
+}
+
+.table .green {
+  color: #4CAF50;
+}
+
+.table .red {
+  color: #F44336;
+}
+
+.table .blue {
+  color: #2196F3;
+}
+
+.table .orange {
+  color: #FF9800;
+}
+
+.table .yellow {
+  color: #FFEB3B;
+}
+
+
+/* FOR THE DEPOSIT SECTION */
+.payment-option {
+  background-color: #191e29;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+.payment-option:nth-child(1){
+  font-size: 22px!important;
+}
+
+.payment-option i {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.payment-option h5 {
+  margin-bottom: 10px;
+}
+
+.payment-option p {
+  color: #888;
+}
+
+
+/* FOR THE ACCOUNTS SECTION */
+.account-section {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.account-section h4 {
+  margin-bottom: 20px;
+}
+
+.account-section label {
+  font-weight: bold;
+}
+
+.account-section .form-group {
+  margin-bottom: 15px;
+}
+
+.account-section .form-control {
+  width: 100%;
+}
+
+.account-section .btn-primary {
+  margin-top: 15px;
+}
+
+/* FOR THE SUPPORT SECTION */
+
+.support-section {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  color: #191e29;
+}
+
+.support-section h4 {
+  margin-bottom: 20px;
+}
+
+.support-section .faq-item {
+  margin-bottom: 15px;
+}
+
+.support-section .faq-item .question {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.support-section .faq-item .answer {
+  display: none;
+}
+
+.support-section .faq-item .answer.show {
+  display: block;
+}
+
+.support-section .btn-primary {
+  margin-top: 15px;
+}
+
+
+/* FOR PAYMENT OVERLAY */
+.payment-form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.payment-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.payment-form input[type="text"],
+.payment-form input[type="email"],
+.payment-form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.payment-form .fa {
+  margin-right: 10px;
+}
+
+.payment-form .fa-credit-card,
+.payment-form .fa-calendar,
+.payment-form .fa-lock {
+  color: #888;
+}
+
+.payment-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.payment-form button:hover {
+  background-color: #45a049;
+}

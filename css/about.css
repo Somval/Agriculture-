@@ -1,0 +1,133 @@
+header{
+  background-color: #191e29;
+	background-image: url(/images/compbuild.jpg);
+	background-blend-mode: overlay;
+	background-position: center;
+}
+.results{
+    position: relative;
+}
+.results h1{
+    font-size: 400px;
+    line-height: 350px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: #132d4630;
+    -webkit-text-stroke: 2px white;
+    border: 2px solid white;
+}
+.results .years{
+    font-size: 40px;
+    font-weight: 800;
+    position: absolute;
+    color: white;
+    z-index: 20;
+    top: 1%;
+    left: 10%;
+    line-height: 35px;
+}
+@media only screen and (max-width: 720px){
+  .years{
+    position: relative;
+    font-size: 30px;
+  }
+  .results h1{
+    font-size: 370px;
+  }
+  .results .yearsdes{
+    margin-top: 0;
+  }
+}
+
+.txtstrokea{
+    -webkit-text-stroke: 1px #01c38d;
+    color: white;
+}
+.txtstrokeb{
+    -webkit-text-stroke: 1px #01c38d;
+    color: transparent;
+}
+.yearsdes{
+    margin-top: -25%;
+}
+
+
+/* IDEALS  */
+.ideals .row{
+  gap: 2%;
+}
+.ideals .col-md-3 {
+  --b: 5px;   /* thickness of the border */
+  --c: #01c38d;   /* color of the border */
+  --w: 20px;  /* width of border */
+  
+
+  border: var(--b) solid #0000; /* space for the border */
+  --_g: #0000 90deg,var(--c) 0;
+  --_p: var(--w) var(--w) border-box no-repeat;
+  background:
+    conic-gradient(from 90deg  at top    var(--b) left  var(--b),var(--_g)) 0    0    / var(--_p),
+    conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g)) 100% 0    / var(--_p),
+    conic-gradient(from 0deg   at bottom var(--b) left  var(--b),var(--_g)) 0    100% / var(--_p),
+    conic-gradient(from -90deg at bottom var(--b) right var(--b),var(--_g)) 100% 100% / var(--_p);
+  
+}
+
+
+
+
+/* FOR THE MARKETS */
+.markets .col-md-4 h1{
+  font-weight: 600;
+}
+
+
+/* FOR THE SWIPER */
+.swiper-container {
+    width: 100%;
+    height: 300px;
+    overflow-x: hidden;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 30px;
+    background-color: #132d46;
+    background-blend-mode: lighten;
+    color: #191e29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .swiper-pagination {
+    position: absolute!important;
+    bottom: 0; /* Adjust the value to move it up or down */
+    left: 15%;
+    right: 0;
+    text-align: center;
+  }
+
+  .swiper-pagination-bullet {
+    width: 40px;
+    height: 20px;
+    border-radius: 100px;
+    background: #132d46;
+    opacity: 1;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #01c38d;
+  }
+
+
+  /* FOR THE PARAGRAPH */
+  .parag{
+    text-align: justify;
+    letter-spacing: -1px;
+
+  }

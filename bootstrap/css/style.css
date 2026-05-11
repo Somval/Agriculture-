@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: white;
+    padding: 10px;
+}
+nav .navbar-brand{
+    font-weight: bolder;
+}
+nav .navbar-brand .dot{
+    color: #ce1212;
+}
+.collapse  li a{
+    font-weight: bold;
+    font-size: 15px;
+}
+.collapse .active{
+    border-bottom: 3px solid #ce1212;
+}
+nav .mybtn{
+    background-color: #ce1212;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    width: 120px; 
+}
+.hero{
+    border: 1px solid black;
+    margin-top: 5%;
+    background-color: #f4f6f7;
+    padding: 8%;
+}
+.hero h3{
+    font-family: cursive;
+    margin-top: 25%;
+}
+.hero p{
+    font-size: 10px;
+}
+.hero a{
+    text-decoration: none;
+}
+.hero .book{
+    background-color: #ce1212;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 10px;
+
+}
+.hero .watch{
+    color: black;
+    margin-left: 10px;
+}
+.hero .fa-play-circle{
+    background-color: #ce1212;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+.hero img{
+    width: 100%;
+    height: 300px;
+    border-radius: 50%;
+}
+.one p{
+    font-size: 10px;
+    font-weight: bold;
+    color: #a6a7a8;
+}
+.one h3{
+    font-family: cursive;
+    font-weight: lighter;
+}
+.one h3 .us{
+    color: #ce1212;
+}
+.redd{
+    color: #ce1212;
+}
+.atwo{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/Pizza.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.atwotext{
+    background-color: white;
+    width: 70%;
+    margin-top: 70%;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
